@@ -16,3 +16,15 @@ void setup()
   pinMode (LMF, OUTPUT);
   pinMode (LMB, OUTPUT);
 }
+void loop()
+{     
+  digitalWrite(10,HIGH);
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(5);
+  digitalWrite(trigPin, HIGH);          //Formula to calculate distance
+  delayMicroseconds(15);
+  digitalWrite(trigPin, LOW);
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+  distance = (duration/2) / 29.1;
+  Serial.println(distance);
