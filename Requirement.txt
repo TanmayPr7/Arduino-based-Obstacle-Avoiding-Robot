@@ -19,3 +19,5 @@
 4.Cardboard or Sunboard for chassis, or
 5.4WD Chassis
 6.Hot Glue Gun
+
+# That's it these all are the required parts and components for this project:)
