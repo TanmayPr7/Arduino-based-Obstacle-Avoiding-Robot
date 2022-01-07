@@ -4,3 +4,7 @@
 3.L293d or L298n Motor Driver
 4.Breadboard
 5.Jumper Cables
+6.BO Gear Motors(300 rpm) *2
+7.Rubber wheels for BO motor *2
+8.360 degree wheel
+9.SG() Servo motor (Optional)
