@@ -6,3 +6,13 @@ int trigPin = A4;
 int echoPin = A5;
 int duration; 
 int distance;
+void setup() 
+{
+  Serial.begin(9600);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode (RMF, OUTPUT);
+  pinMode (RMB, OUTPUT);
+  pinMode (LMF, OUTPUT);
+  pinMode (LMB, OUTPUT);
+}
