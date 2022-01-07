@@ -2,4 +2,7 @@ This is the Arduino based 2 wheeled robot which uses a motor driver, ultrasonic 
 this robot basically moves in forward direction and change its direction when any object comes in front of it, robot changes
 its direction according to its code.
 The robot knows how and when to change its direction with help of ultrasonic sensor used in it, ultrasonic sensor consist of two
-parts transmitter and reciver.
+parts transmitter and reciver. Transmitter shot's out ultrasonic waves whic later hits object if present if front and comes back
+by reflecting, which is recived by reciver part.
+By this continious In and Out process Ultrasonic sensor calculates distance between sensor and object if present, then sensor sends 
+signal to microcontroller(Arduino), which later tells motor driver when to move, when to stop and when to change direction of motor.
