@@ -10,3 +10,18 @@ void setup()
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
 }
+void loop()
+{     
+  digitalWrite(10,HIGH);
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(5);
+  digitalWrite(trigPin, HIGH);          //Formula to calculate distnace
+  delayMicroseconds(15);
+  digitalWrite(trigPin, LOW);
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+  distance = (duration/2) / 29.1;
+  Serial.println(distance);
+}
+
+// This is the basic code to calculate distance using Ultransonic sensor:)
