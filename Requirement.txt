@@ -11,3 +11,11 @@
 
 # Library Required
 1.Servo.h (Optional, if you are using Servo)
+
+# Hardware Requirements
+1.Pair of Scissors
+2.Double Sided Tape
+3.Soldering Iron
+4.Cardboard or Sunboard for chassis, or
+5.4WD Chassis
+6.Hot Glue Gun
