@@ -1,0 +1,8 @@
+int RMF = 6;                                  //Speacial case
+int RMB = 5;
+int LMF = 4;
+int LMB = 3;
+int trigPin = A4;
+int echoPin = A5;
+int duration; 
+int distance;
