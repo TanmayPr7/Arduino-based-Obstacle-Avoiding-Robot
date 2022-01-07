@@ -8,3 +8,6 @@
 7.Rubber wheels for BO motor *2
 8.360 degree wheel
 9.SG() Servo motor (Optional)
+
+# Library Required
+1.Servo.h (Optional, if you are using Servo)
